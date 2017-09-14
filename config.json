@@ -19,6 +19,7 @@
         "fullscreen",
         "table",
         "video",
-        "icons"
+        "boilerplate",
+        "icons",
     ]
 }

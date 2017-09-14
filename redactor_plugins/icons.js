@@ -18,7 +18,8 @@
                     'html': '<i class="fa fa-code"></i>',
                     'lists': '<i class="fa fa-list"></i>',
                     'table': '<i class="fa fa-table"></i>',
-                    'video': '<i class="fa fa-file-video-o"></i>'
+                    'video': '<i class="fa fa-file-video-o"></i>',
+                    'boilerplate': '<i class="fa fa-exclamation"></i>'
                 };
 
                 $.each(this.button.all(), $.proxy(function(i,s)
@@ -31,7 +32,7 @@
                     {
                         var icon = icons[key];
                         var button = this.button.get(key);
-                        
+
                         this.button.setIcon(button, icon);
                     }
 
